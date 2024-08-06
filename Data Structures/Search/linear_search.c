@@ -24,11 +24,12 @@ int main(){
     int target;
     
     printf("Enter the target: ");
-    scanf("%d", target);
+    scanf("%d", &target);
     
     for (int p = 0; p < sizeof(ready_made); p++ ){
         if (ready_made[p] == target){
-            printf("The Target is found at index %d" , target);
+            printf("The Target is found at index %d" , p);
         }
     }
+    return 0;
 }
