@@ -18,7 +18,7 @@ int main(){
    
    
     // OR build the array in the code itself
-    int ready_made[] = {25, 50, 75, 100};25
+    int ready_made[] = {25, 50, 75, 100};
    
     // The Linear Search Algorithm
     int target;
